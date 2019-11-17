@@ -6,7 +6,8 @@
              mc:Ignorable="d"
              x:Class="Lands.Views.LandPage"
              BindingContext="{Binding Main, Source={StaticResource Locator}}"
-             Title="Information">
+             Title="Information"
+             Icon="ic_action_info">
     <ContentPage.Content>
         <StackLayout>
             <ScrollView
