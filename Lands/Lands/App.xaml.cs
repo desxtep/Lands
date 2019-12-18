@@ -10,8 +10,8 @@
         public App ()
 		{
 			InitializeComponent();
-            this.MainPage = new MasterPage();
-           // this.MainPage = new NavigationPage(new LoginPage());
+            //this.MainPage = new MasterPage();
+           this.MainPage = new NavigationPage(new LoginPage());
 		}
 
 		protected override void OnStart ()
